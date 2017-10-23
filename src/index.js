@@ -11,5 +11,9 @@ module.exports = {
 
     sayBye: function(){
         return 'Bye bye'
+    },
+
+    sleep: function(){
+        return 'zzz'
     }
 }
