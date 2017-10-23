@@ -6,7 +6,7 @@ module.exports = {
     },
 
     iden: function(){
-        return v1();
+        return v1() + 1;
     },
 
     sayBye: function(){
