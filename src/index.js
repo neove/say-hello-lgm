@@ -1,8 +1,8 @@
 import {v1} from 'uuid';
 
 export default {
-    sayHello: function(){
-        alert('hello you!')
+    sayHello: function(name='you'){
+        alert(`hello ${name}!`)
     },
 
     iden: function(){
