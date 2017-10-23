@@ -22,5 +22,8 @@
   "homepage": "https://github.com/it1011/sematic-release#readme",
   "dependencies": {
     "uuid": "3.1.0"
+  },
+  "devDependencies": {
+    "jest": "21.2.1"
   }
 }

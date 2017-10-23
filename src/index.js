@@ -1,8 +1,8 @@
-import {v1} from 'uuid';
+const v1 = require('uuid').v1;
 
-export default {
+module.exports = {
     sayHello: function(name='you'){
-        alert(`hello ${name}!`)
+        return `hello ${name}!`
     },
 
     iden: function(){
@@ -10,6 +10,6 @@ export default {
     },
 
     sayBye: function(){
-        alert('Bye bye')
+        return 'Bye bye'
     }
 }
