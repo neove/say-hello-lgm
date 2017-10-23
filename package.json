@@ -5,11 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "cm": "git-cz"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/it1011/sematic-release.git"
+    "url": "https://github.com/it1011/say-hello-lgm.git"
   },
   "keywords": [
     "semantic",
@@ -18,13 +19,21 @@
   "author": "Guoming Li <it1011@qq.com> (http://lixinchi.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/it1011/sematic-release/issues"
+    "url": "https://github.com/it1011/say-hello-lgm/issues"
   },
-  "homepage": "https://github.com/it1011/sematic-release#readme",
+  "homepage": "https://github.com/it1011/say-hello-lgm#readme",
   "dependencies": {
     "uuid": "3.1.0"
   },
   "devDependencies": {
-    "jest": "21.2.1"
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "jest": "21.2.1",
+    "semantic-release": "^8.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
