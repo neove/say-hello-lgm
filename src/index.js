@@ -13,7 +13,8 @@ module.exports = {
         return 'Bye bye'
     },
 
-    sleep: function(){
+    sleep: function(time){
+        console.log(`sleep for ${time} minutes`)
         return 'zzz'
     }
 }
