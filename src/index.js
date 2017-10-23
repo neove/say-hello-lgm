@@ -7,5 +7,9 @@ export default {
 
     iden: function(){
         return v1();
+    },
+
+    sayBye: function(){
+        alert('Bye bye')
     }
 }
