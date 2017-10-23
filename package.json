@@ -1,0 +1,26 @@
+{
+  "name": "sematic-release",
+  "version": "1.0.0",
+  "description": "test semantic release",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it1011/sematic-release.git"
+  },
+  "keywords": [
+    "semantic",
+    "release"
+  ],
+  "author": "Guoming Li <it1011@qq.com> (http://lixinchi.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/it1011/sematic-release/issues"
+  },
+  "homepage": "https://github.com/it1011/sematic-release#readme",
+  "dependencies": {
+    "uuid": "3.1.0"
+  }
+}
