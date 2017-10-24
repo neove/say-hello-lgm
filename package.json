@@ -1,6 +1,6 @@
 {
   "name": "say-hello-neo",
-  "version": "0.0.0-development",
+  "version": "3.0.0-development",
   "description": "test semantic release ",
   "main": "src/index.js",
   "scripts": {
