@@ -1,7 +1,7 @@
 {
   "name": "say-hello-lgm",
   "version": "0.0.0-development",
-  "description": "test semantic release",
+  "description": "test semantic release ",
   "main": "src/index.js",
   "scripts": {
     "precm": "npm t",
